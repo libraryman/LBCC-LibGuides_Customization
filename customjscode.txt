@@ -56,6 +56,16 @@ display:none;
 	top:1px;
 }
 
+.navbar-toggle {
+margin-bottom: 40px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #272727;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #272727;
+}
 </style>
 
 <link rel="shortcut icon" href="https://www.lbcc.edu/sites/default/themes/dtheme/favicon.png" type="image/x-icon" />
