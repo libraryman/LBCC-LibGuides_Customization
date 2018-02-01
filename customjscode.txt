@@ -1,0 +1,64 @@
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/12284/include/slide.css">
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/12284/include/styll2.css">
+<link rel="stylesheet" type="text/css" href="//libapps.s3.amazonaws.com/sites/12284/include/footerstyle.css">
+<script type="text/javascript" src="//libapps.s3.amazonaws.com/sites/12284/include/bootstrap-hover-dropdown.min.js"></script>
+<style>
+
+/*#s-lg-tabs-container .nav-tabs{
+
+padding: 0px 0px 0px 0px;
+}
+
+
+#s-lg-guide-main{
+border-top: 5px solid #d92b00;
+
+
+}*/
+
+.s-lib-footer{
+display:none;
+}
+
+/*body {
+padding-left: 0px;
+padding-right: 0px;
+}*/
+#az-search-col-1 {
+display:none;
+}
+
+/*the guides widget for buttons  */
+
+
+
+.myButton {
+
+	background-color:#5c5a5a;
+	border:1px solid #5c5a5a;
+	display:inline-block;
+	cursor:pointer;
+	color:#ccc4c4;
+	padding:2px 5px;
+	text-decoration:none;
+       width: 100%;
+      min-width: 50px;
+      max-width: 3000px;
+
+}
+.myButton:hover {
+	background-color:#d92b00;
+        color: #ffffff;
+       text-decoration:none;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+</style>
+
+<link rel="shortcut icon" href="https://www.lbcc.edu/sites/default/themes/dtheme/favicon.png" type="image/x-icon" />
+
+<meta name=”keywords” content=”course guide, library guide,study guide, reference”>
+<meta name=”description” content=”Research  and course guides for credible sources.”>

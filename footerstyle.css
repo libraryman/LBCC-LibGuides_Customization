@@ -1,0 +1,62 @@
+/************************************************************
+*************************Footer******************************
+*************************************************************/
+
+.footer1 {
+    background: url("https://www.lbcc.edu//sites/default/themes/dtheme/img/footer.jpg") ;
+	padding-top: 40px;
+	padding-right: 0;
+	padding-bottom: 20px;
+	padding-left: 0;/*	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #003;*/
+}
+
+.footer-title{
+  color:white;
+  margin-bottom: 2px;
+}
+.footerp a{
+  color:white;
+  text-decoration: none;
+}
+.footerp a:hover{
+  color:red;
+  text-decoration: none;
+}
+.widget_nav_menu ul {
+    list-style: outside none none;
+    padding-left: 0;
+}
+
+
+
+
+.widget_nav_menu ul li a {
+color: white ;
+text-decoration: none;
+}
+.widget_nav_menu ul li a:hover{
+
+  color: red
+}
+
+
+/*.title-median {
+
+  font-size: px;
+  line-height: 20px;
+    margin: 0 0 15px;
+
+
+}*/
+
+.footerp p {
+color:white;
+}
+
+
+
+/************************************************************
+*************************Footer******************************
+*************************************************************/

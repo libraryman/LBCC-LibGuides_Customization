@@ -1,0 +1,104 @@
+body {
+
+padding-top: 70px;
+}
+.navbar-brand .img{
+  height:46px;
+}
+
+.navbar-nav li a {
+line-height: 46px;
+color: white !important;
+font-size: 1.3em;
+}
+.navbar {
+background-color: #272727;
+}
+.navbar-default {
+  background-color: #272727;
+  border-color: #272727;
+}
+.dropdown-menu li a {
+background-color:#272727;
+padding-top: 0;
+}
+.dropdown-menu {
+background-color: #272727;
+
+}
+
+.navbar-default .navbar-nav >.open> a{
+background-color: #272727;
+
+}
+
+.navbar-default .navbar-nav >.open> a:hover{
+background-color: #272727;
+
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+        background-color:#e12926;
+    }
+
+.dropdown-menu .divider {
+  height: 1px;
+  margin: 0;
+
+  background-color: gray;
+}
+#red{
+padding-top: 20px;
+background-color: #e12926;
+}
+/*  begin quick link icon section */
+.libicons {
+      padding:10px;
+      text-align: center;
+  background: url(https://www.lbcc.edu/sites/default/themes/dtheme/img/carving.jpg);
+
+}
+#libiconbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float:left;
+
+}
+#libiconbar li {
+display:inline-block;
+}
+#libiconbar li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 30px;
+  padding-top: 5px;
+}
+
+#libiconbar li a i {
+background-color: #e12926;
+border-radius: 250px;
+color:white;
+padding: 20px 20px;
+
+}
+
+#libiconbar li a i:hover{
+background-color: darkred;
+}
+
+#libiconbar li a p {
+color: white;
+font-size:20px;
+text-align: center;
+}
+
+
+.studyheader{
+float:left;
+font-size: 35px;
+color: white;
+padding-left: 200px;
+}

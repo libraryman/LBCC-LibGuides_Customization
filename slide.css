@@ -1,0 +1,33 @@
+.slide-center-out
+{
+text-decoration:none;
+display: inline-block;
+color:white;
+}
+/* add a empty string after the elment with class .slide-center-out  */
+.slide-center-out:after
+{
+content: '';
+display: block;
+height: 3px;
+width: 0;
+background: transparent;
+transition: width .3s ease, background-color .3s ease;
+-webkit-transition: width .3s ease, background-color .3s ease;
+-moz-transition: width .3s ease, background-color .3s ease;
+
+margin:auto; /* center the cotent so it will sliding from the midddle to the left and right */
+}
+
+/* Change the width and background on hover, aka sliding from the middle to the left and right */
+.slide-center-out:hover:after
+{
+width: 100%;
+background: white;
+}
+
+.slide-center-out:active:after
+{
+width: 100%;
+background: white;
+}
