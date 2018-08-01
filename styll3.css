@@ -1,8 +1,21 @@
-body {
-  padding-top: 70px;
-}
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+/* bootstrap 3 helpers */
+
 .navbar-brand .img {
   height: 46px;
+
+}
+
+.nav{
+  padding-bottom: 0px;
 }
 
 .navbar-nav li a {
