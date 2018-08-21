@@ -1,12 +1,4 @@
-.affix {
-      top: 0;
-      width: 100%;
-      z-index: 9999 !important;
-  }
 
-  .affix + .container-fluid {
-      padding-top: 70px;
-  }
 /* bootstrap 3 helpers */
 
 .navbar-brand .img {
@@ -19,9 +11,9 @@
 }
 
 .navbar-nav li a {
-  line-height: 46px;
+  line-height: 40px;
   color: white !important;
-  font-size: 1.3em;
+
 }
 .navbar {
   background-color: #272727;

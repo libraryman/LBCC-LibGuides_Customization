@@ -1,0 +1,55 @@
+#badfont{
+font-family: 'Montserrat', sans-serif;
+font-weight: 700;
+
+}
+
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+.affix {
+      top: 0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+      padding-top: 70px;
+  }
+  .navbar {
+       margin-bottom: 0px;
+  }
+
+  #top-navv{
+    background-color:black;
+    color:#fff;
+
+  }
+
+  #iconsec{
+    padding-top:.6em;
+    border-color: white;
+    border-left-style: solid;
+    border-left-width: thin;
+    border-right-style: solid;
+    border-right-width: thin;
+  }
+
+  #toppnav{
+    background-color: black;
+    border-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+
+  }
+
+  #getstarted{
+    background-color: red;
+    border-bottom-style: solid;
+    border-bottom-color: red;
+    border-bottom-width: 7px;
+
+
+  }
