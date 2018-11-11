@@ -1,3 +1,10 @@
+html,body
+{
+
+    overflow-x: hidden;
+}
+
+
 #badfont{
 font-family: 'Montserrat', sans-serif;
 font-weight: 700;
@@ -16,7 +23,7 @@ font-weight: 700;
   }
 
   .affix + .container-fluid {
-      padding-top: 70px;
+      padding-top: 60px;
   }
   .navbar {
        margin-bottom: 0px;
@@ -26,15 +33,13 @@ font-weight: 700;
     background-color:black;
     color:#fff;
 
+
   }
 
   #iconsec{
-    padding-top:.6em;
-    border-color: white;
-    border-left-style: solid;
-    border-left-width: thin;
-    border-right-style: solid;
-    border-right-width: thin;
+    display:block;
+    padding-top:5px;
+
   }
 
   #toppnav{
@@ -43,13 +48,105 @@ font-weight: 700;
     border-bottom-style: solid;
     border-bottom-width: thin;
 
-  }
-
-  #getstarted{
-    background-color: red;
-    border-bottom-style: solid;
-    border-bottom-color: red;
-    border-bottom-width: 7px;
+    list-style:none;
 
 
   }
+
+#toppnav p {
+
+
+font-size: 12px;
+
+  }
+
+
+#getstarted{
+    background-color: #C50608;
+
+    padding-top:12px;
+    border-color: white;
+    border-left-style: solid;
+    border-left-width: thin;
+ }
+
+#getstarted a {
+color: white;
+margin:0px;
+text-decoration: none;
+padding-top: 0px;
+}
+
+#getstarted:focus, #getstarted:hover {
+  background-color: #b00012;
+}
+
+.navbar-brand {
+  padding: 5px;
+}
+/*  quicklinks button
+.btn>.open>a, .btn>.open>a:hover, .btn>.open>a:focus{
+  background-color: green!important;
+  droptopdown
+}
+
+#droptopdown:focus, #droptopdown:hover {
+  background-color: #b00012;
+}
+div#topheddd:focus, div#topheddd:hover {
+  background-color: #b00012;
+}
+*/
+
+ #droptopdown {
+  color: white;
+  background-color: black;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  }
+
+
+ /*end the stupid button section  */
+#iconsec a img:hover {
+  background-color: darkred;
+}
+
+
+#topheader a{
+  text-decoration: none;
+  color:white;
+  font-size: 10px;
+}
+#topheader {
+  padding-left: 45px;
+  padding-top: 9px;
+  border-color: white;
+  border-right-style: solid;
+  border-right-width: thin;
+}
+
+#floatright {
+  float:right;
+  padding-left:20px;
+}
+.navbar-brand>img {
+  padding-left: 40px;
+}
+
+.topheadicon{
+  width:16px;
+  height:16px;
+  background-color: white;
+}
+ #middleicon {
+  margin-left:5px;
+  margin-right:5px;
+
+}
+#topdropdown {
+  border-color: white;
+  border-left-style: solid;
+  border-left-width: thin;
+
+
+}

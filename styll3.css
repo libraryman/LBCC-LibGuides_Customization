@@ -3,6 +3,7 @@
 
 .navbar-brand .img {
   height: 46px;
+  padding-left: 40px;
 
 }
 
@@ -11,7 +12,7 @@
 }
 
 .navbar-nav li a {
-  line-height: 40px;
+
   color: white !important;
 
 }
@@ -25,6 +26,8 @@
 .dropdown-menu li a {
   background-color: #272727;
   padding-top: 0;
+  padding:10px;
+  color:white;
 }
 .dropdown-menu {
   background-color: #272727;
@@ -32,6 +35,8 @@
 
 .navbar-default .navbar-nav > .open > a {
   background-color: #272727;
+
+
 }
 
 .navbar-default .navbar-nav > .open > a:hover {
@@ -41,6 +46,7 @@
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   background-color: #e12926;
+
 }
 
 .dropdown-menu .divider {
@@ -95,8 +101,7 @@
 }
 
 .studyheader {
-  float: left;
-  font-size: 35px;
+  font-size: 30px;
   color: white;
-  padding-left: 100px;
+  padding-left: 10px;
 }
