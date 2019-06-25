@@ -17,30 +17,40 @@
 
 }
 .navbar {
-  background-color: #272727;
+  
+  
+  background-color: black;
+
 }
 .navbar-default {
-  background-color: #272727;
-  border-color: #272727;
+ 
+  background-color:black;
+  border-color: black;
+  
+    
 }
 .dropdown-menu li a {
-  background-color: #272727;
+  background-color: black;
   padding-top: 0;
   padding:10px;
   color:white;
 }
 .dropdown-menu {
-  background-color: #272727;
+  background-color: black;
+  
+  
 }
 
 .navbar-default .navbar-nav > .open > a {
-  background-color: #272727;
+  background-color: black;
+  
 
 
 }
 
 .navbar-default .navbar-nav > .open > a:hover {
-  background-color: #272727;
+  
+  background-color: black;
 }
 
 .dropdown-menu > li > a:hover,
@@ -56,12 +66,12 @@
   background-color: gray;
 }
 #red {
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: #e12926;
 }
 /*  begin quick link icon section */
 .libicons {
-  padding: 10px;
+  padding-top: 3px;
   text-align: center;
   background: url(https://www.lbcc.edu/sites/default/themes/dtheme/img/carving.jpg);
 }
@@ -100,8 +110,32 @@
   text-align: center;
 }
 
+#libiconbar li a img {
+  background-color: #e12926;
+  border-radius: 250px;
+  color: white;
+
+}
+
+#libiconbar li a img:hover {
+  background-color: darkred;
+}
+
+#libiconbar li p {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding-left: 30px;
+}
+
 .studyheader {
   font-size: 30px;
   color: white;
   padding-left: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  #toppnav {
+    display: none;
+  }
 }

@@ -56,7 +56,7 @@ font-weight: 700;
 #toppnav p {
 
 
-font-size: 12px;
+font-size: 10px;
 
   }
 
@@ -75,11 +75,13 @@ color: white;
 margin:0px;
 text-decoration: none;
 padding-top: 0px;
+font-size:12px;
 }
 
 #getstarted:focus, #getstarted:hover {
   background-color: #b00012;
 }
+
 
 .navbar-brand {
   padding: 5px;
@@ -89,20 +91,25 @@ padding-top: 0px;
   background-color: green!important;
   droptopdown
 }
-
+*/
 #droptopdown:focus, #droptopdown:hover {
-  background-color: #b00012;
+  color: #b00012;
 }
 div#topheddd:focus, div#topheddd:hover {
   background-color: #b00012;
 }
-*/
+#topheader a:focus, #topheader a:hover {
+   color: #b00012;
+}
+
 
  #droptopdown {
   color: white;
   background-color: black;
   margin-bottom: 5px;
-  padding-top: 10px;
+  padding-top: 5px;
+  text-decoration: none;
+  font-size:12px;
   }
 
 
@@ -115,11 +122,10 @@ div#topheddd:focus, div#topheddd:hover {
 #topheader a{
   text-decoration: none;
   color:white;
-  font-size: 10px;
+  font-size: 12px;
 }
 #topheader {
-  padding-left: 45px;
-  padding-top: 9px;
+  padding-top: 8px;
   border-color: white;
   border-right-style: solid;
   border-right-width: thin;
@@ -127,10 +133,8 @@ div#topheddd:focus, div#topheddd:hover {
 
 #floatright {
   float:right;
-  padding-left:20px;
-}
-.navbar-brand>img {
-  padding-left: 40px;
+  padding-top:2px;
+  
 }
 
 .topheadicon{
@@ -147,6 +151,15 @@ div#topheddd:focus, div#topheddd:hover {
   border-color: white;
   border-left-style: solid;
   border-left-width: thin;
+  height:38.5px;
+  
 
 
+}
+
+
+.nav>li>a {
+  
+  
+  padding-right: 7px;
 }
